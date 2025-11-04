@@ -9,23 +9,7 @@
 
 ---
 
-## 📋 Table of Contents
 
-- [Problem Statement](#problem-statement)
-- [Business Context](#business-context)
-- [Technical Approach](#technical-approach)
-- [Installation & Setup](#installation--setup)
-- [Running the Code](#running-the-code)
-- [Results & Evaluation](#results--evaluation)
-- [Model Architecture](#model-architecture)
-- [Dataset](#dataset)
-- [Limitations](#limitations)
-- [Future Work](#future-work)
-- [Project Structure](#project-structure)
-- [References](#references)
-- [License](#license)
-
----
 
 ## 🎯 Problem Statement
 
