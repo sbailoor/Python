@@ -487,10 +487,5 @@ The SAMSum dataset contains **16,369 messenger-like conversations** with their c
 
 <div align="center">
 
-**Built with ❤️ using BART and PyTorch**
-
-[Report Bug](https://github.com/your-username/bart-dialogue-summarization/issues) · 
-[Request Feature](https://github.com/your-username/bart-dialogue-summarization/issues) · 
-[Documentation](https://github.com/your-username/bart-dialogue-summarization/wiki)
 
 </div>
