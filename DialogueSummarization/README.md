@@ -3,7 +3,6 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
 [![Transformers](https://img.shields.io/badge/Transformers-4.30+-orange.svg)](https://huggingface.co/transformers/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **AI-Powered Dialogue Summarization using BART Transformers**
 
@@ -318,7 +317,31 @@ The SAMSum dataset contains **16,369 messenger-like conversations** with their c
 
 
 ---
+### **Saved Model Verification (2 minutes)**
 
+Drive Location:
+https://drive.google.com/drive/folders/1iXK7ailuVt3rtyvSRKyfaZjsaoAYu2R5?usp=drive_link
+
+**Check the saved directory structure:**
+
+```bash
+./bart_dialogue_summarizer/
+├── config.json              # Model configuration
+├── pytorch_model.bin        # Model weights
+├── tokenizer_config.json    # Tokenizer settings
+├── vocab.json              # Vocabulary
+└── merges.txt              # BPE merges
+```
+
+**Verify you can load the model:**
+```python
+# This should work without errors
+model = BartForConditionalGeneration.from_pretrained('./bart_dialogue_summarizer')
+tokenizer = BartTokenizer.from_pretrained('./bart_dialogue_summarizer')
+print("✓ Model loaded successfully!")
+```
+
+---
 ## ⚠️ Limitations
 
 ### Current Model Limitations
